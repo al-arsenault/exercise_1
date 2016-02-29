@@ -1,1 +1,3 @@
-placeholder for readme file
+The files in this folder are HIVE sql queries that create tables representing the hospitals, states, and procedures ratings.
+Each query creates a new table by JOINing fields from different tables.
+
