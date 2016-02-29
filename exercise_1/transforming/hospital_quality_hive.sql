@@ -1,6 +1,6 @@
 CREATE TABLE hospital_quality AS SELECT hospitals.providerID, hospitals.hospitalname, readmissions.score, effective_care.score
 FROM
-   hospitals LEFT OUTER JOIN readmissions
+   hospitals INNER JOIN readmissions
 ON
    (hospitals.providerID = readmissions.providerID) LEFT OUTER JOIN effective_care 
 ON 
