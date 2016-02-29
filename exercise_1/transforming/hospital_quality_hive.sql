@@ -1,4 +1,4 @@
-CREATE TABLE hospital_quality AS SELECT hospitals.providerID, hospitals.hospitalname, readmissions.score, effective_care.score
+CREATE TABLE hospital_quality AS SELECT hospitals.providerID, hospitals.hospitalname, readmissions.rscore, effective_care.score
 FROM
    hospitals INNER JOIN readmissions
 ON
